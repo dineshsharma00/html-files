@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML Forms</title>
+        <style>/* General page styling */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    color: #333;
+}
+
+/* Form container */
+form {
+    max-width: 600px;
+    margin: auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading */
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+/* Form sections */
+form div {
+    margin-bottom: 15px;
+}
+
+/* Labels */
+label {
+    display: inline-block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* Text inputs */
+input[type="text"],
+input[type="tel"],
+input[type="phone"],
+input[type="email"],
+input[type="password"],
+input[type="age"],
+select {
+    width: 100%;
+    padding: 12px 14px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+    outline: none;
+    background-color: #fafafa;
+    transition: 0.3s;
+}
+
+/* Focus effect */
+input:focus,
+select:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 5px rgba(102, 126, 234, 0.4);
+    background-color: #fff;
+}
+
+/* Placeholder */
+input::placeholder {
+    color: #999;
+}
+
+/* Select box */
+select {
+    cursor: pointer;
+}
+
+/* Multiple select */
+select[multiple] {
+    min-height: 120px;
+}
+
+/* Programming language section */
+form p {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+input[type="checkbox"] {
+    width: auto;
+    margin-right: 5px;
+    accent-color: #667eea;
+}
+
+/* Checkbox labels */
+input[type="checkbox"] + label {
+    display: inline;
+}
+
+/* Buttons */
+button {
+    padding: 12px 22px;
+    margin: 8px 5px 0 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+/* Submit button */
+button[type="submit"] {
+    background-color: #667eea;
+    color: white;
+}
+
+button[type="submit"]:hover {
+    background-color:red
+    ;
+    transform: translateY(-2px);
+}
+
+/* Disabled button */
+button:disabled {
+    background-color: #ccc;
+    color: #777;
+    cursor: not-allowed;
+}
+
+/* Reset button */
+button[type="reset"] {
+    background-color: #e74c3c;
+    color: white;
+}
+
+button[type="reset"]:hover {
+    background-color: #c0392b;
+    transform: translateY(-2px);
+}
+
+/* Responsive design */
+@media (max-width: 600px) {
+    body {
+        padding: 20px 10px;
+    }
+
+    form {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    button {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+</style>
+    </head>
+    <body>
+        <h1>Forms in HTML </h1>
+        <form action="/Submit.php">
+            <div>
+                <label for="name">Name </label>
+                <input type="text" placeholder="Enter Name">
+            </div>
+            <br>
+        
+
+            <div>
+                <label for="phone">phone</label>
+                <input type="phone" placeholder="Enter phone">
+            </div>
+            <br>
+            <!--Dropdown ( select input ) for Gender -->
+            <div>
+                <label for="Gender">Gender</label>
+                <select id="Gender" required>
+                    <option value=""disabled selected>select Gender</option>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">other</option>
+                </select>
+            </div>
+             
+        <br>
+        <!--radio buttons for programming language -->
+        <div> <p>Programming language</p>
+
+       <label>
+        <input type="checkbox" name="programming language" value="c" required >c<label>
+    
+       </label>
+
+       <label>
+        <input type="checkbox" name="programming language" value="c++" required >c++<label>
+
+            <label>
+        <input type="checkbox" name="programming language" value="java" required >java<label></div>
+       
+
+            <br><br>
+            <span>country</span>
+            <label for="country">country</label>
+            <select id="CITY"multiple>
+                <option name="country"  disabled selected > selectedur country<option>
+                <option name="country"  value="USE"> USE<option>
+                <option name="country"  value="canada"> canada</option>
+                <option name="country"  value="india"> india</option>
+            </select>
+        </input>
+        
+    
+
+
+
+       <br>
+       <br>
+
+          <label for="dob">Phone number</label>:</label>
+        <input type="tel" id="dob" Name="date of birth" placeholder="Enter your name">
+
+        
+        <br>
+        <br>
+
+         <label>Email*:</label>
+        <input type="email" placeholder="Enter your email">
+
+        <br>
+        <br>
+
+         <label>Age:</label>
+        <input type=age placeholder="Enter your age">
+
+        <br>
+        <br>
+
+         <label>Password:</label>
+        <input type=Password placeholder= "Enter your password">
+
+        <br>
+        <br>
+
+        <button disabled>Click</button>
+        <button type="submit">submit</button>
+        <button>Reset</button>
+
+    </form>
+    
+    
+</body>
+</html>
+        </form>
+
+    
+</body>
+</html>

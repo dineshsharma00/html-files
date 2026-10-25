@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Lists in HTML</title>
+        <style>
+            * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #e0f2fe, #ede9fe);
+    min-height: 100vh;
+    padding: 40px;
+    color: #333;
+}
+
+/* Main heading */
+h1 {
+    text-align: center;
+    color: #4f46e5;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+/* Section headings */
+h2 {
+    color: #1e3a8a;
+    font-size: 25px;
+    margin: 25px 0 15px;
+}
+
+/* Lists */
+ol,
+ul {
+    background-color: white;
+    width: 350px;
+    padding: 20px 40px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* List items */
+li {
+    padding: 10px;
+    margin: 5px 0;
+    font-size: 18px;
+    color: #444;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+li:hover {
+    background-color: #eef2ff;
+    color: #4f46e5;
+    border-radius: 6px;
+    padding-left: 15px;
+}
+
+/* Ordered list numbering */
+ol li::marker {
+    color: #4f46e5;
+    font-weight: bold;
+}
+
+/* Unordered list bullets */
+ul li::marker {
+    color: #7c3aed;
+}
+
+/* Mobile responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 25px;
+    }
+
+    h1 {
+        font-size: 32px;
+    }
+
+    ol,
+    ul {
+        width: 100%;
+    }
+}
+
+        </style>
+        
+    </head>
+    <body>
+        <h1>List in HTML</h1>
+        <!--oredered List -->
+        <h2>Brother's Name </h2>
+        <ol>
+            <li>Dinesh</li>
+            <li>Akash</li>
+            <li>Vikas</li>
+        </ol>
+        <!--unorderd List-->
+        <h2>Age</h2>
+        <ul>
+            <li>24</li>
+            <li>22</li>
+            <li>19</li>
+        </ul>
+    
+</body>
+</html> 

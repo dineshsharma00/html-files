@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Table - HTML</title>
+        <style>* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #dbeafe, #eff6ff);
+    min-height: 100vh;
+    padding: 50px 20px;
+    color: #333;
+}
+
+/* Main Heading */
+h1 {
+    text-align: center;
+    color: #1d4ed8;
+    font-size: 40px;
+    margin-bottom: 35px;
+}
+
+/* Table */
+table {
+    width: 80%;
+    max-width: 900px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+/* Table Header */
+thead {
+    background-color: #2563eb;
+    color: white;
+}
+
+th {
+    padding: 18px;
+    font-size: 18px;
+    text-align: left;
+}
+
+/* Table Body */
+td {
+    padding: 16px 18px;
+    font-size: 16px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+/* Alternate row colors */
+tbody tr:nth-child(even) {
+    background-color: #eff6ff;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+/* Hover effect */
+tbody tr:hover {
+    background-color: #dbeafe;
+    transform: scale(1.01);
+    transition: 0.2s ease;
+}
+
+/* Salary column */
+td:last-child {
+    font-weight: bold;
+    color: #15803d;
+}
+
+/* Last row border */
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+    body {
+        padding: 30px 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    th,
+    td {
+        padding: 12px 8px;
+    }
+
+    th {
+        font-size: 15px;
+    }
+
+    td {
+        font-size: 14px;
+    }
+}
+</style>
+    </head>
+    <body>
+        <h1>Table in HTML</h1>
+        <table>
+            <!--head of the table -->
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Role</th>
+                    <th>Salary</th>
+
+                </tr>
+            </thead>
+            <!--body of the table -->
+            <tbody>
+                <tr>
+                    <td>Dinesh</td>
+                    <td>Software Developer</td>
+                    <td>$50000</td>
+                </tr>
+
+                 <tr>
+                    <td>Sumit</td>
+                    <td>Software helper</td>
+                    <td>$30000</td>
+                </tr>
+                 <tr>
+                    <td>Aditya</td>
+                    <td>ML Engineer</td>
+                    <td>$50000</td>
+                </tr>
+                 <tr>
+                    <td>Sohil</td>
+                    <td>AI Engineer</td>
+                    <td>$40000</td>
+                </tr>
+
+
+
+
+
+
+            </tbody>
+        </table>
+
+    
+</body>
+</html>
