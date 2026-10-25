@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: arial,sans-serif;
+    background:lightblue;
+
+}
+.login-box{
+    width: 90%;
+    max-width: 380px;
+    padding: 50px;
+    background-color: white;
+    border-radius:15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.2);
+
+
+}
+
+h1{
+    text-align: center;
+    color: #1e293b;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-family:sans-serif;
+}
+.login-box > p{
+    text-align: center;
+    color: rgb(27, 25, 25);
+    margin-bottom: 25px;
+    
+}
+
+label{
+    display: block;
+    margin: 15px 0 7px;
+    color: #334155;
+    font-weight: bold;
+}
+
+input{
+    width:100%;
+    padding:12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 7px;
+    outline: none;
+    font-size: 14px;
+
+}
+
+input:focus{
+    border: color 2pxbold; black;
+}
+.forgot{
+    display: block;
+    margin: 15px 0 7px;
+    color: blue;
+}
+button{
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0 7px;
+    background-color: rgb(30, 30, 232);
+    color: white;
+    border-radius: 6px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background: red;
+}
+input:hover{
+    background: lightcyan;
+}
+.login-box.signup{
+    margin: 22px 0 0;
+    font-size: 14px;
+
+}
+.signup a{
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+
+}
