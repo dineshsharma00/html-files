@@ -1,0 +1,110 @@
+/*default spacign removing*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Full page design*/
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aqua;
+    font-family: arial,sans-serif;
+}
+/*profile card*/
+.profile-card{
+    width: 320px;
+    height: 400px;
+    padding: 30px 20px;
+    background-color: white;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 5px 25px #000000;
+
+}
+.profile-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px #000000;
+}
+
+/*profile photo*/
+
+.profile-img{
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow:0 3px 5px#000000;
+    border: 1px solid grey;
+     margin-bottom: 15px;
+}
+.profile-img:hover{
+    transform: translateY(2px);
+}
+
+/*Name */
+
+h1{
+    font-size: 24px;
+    margin-bottom: 15px;
+
+}
+/*role*/
+h3{
+    font-size:14px;
+    color:#3b82f6;
+    margin-bottom: 15px;
+}
+
+/*introduction*/
+.bio{
+    font-size:14px;
+    line-height: 1.5;
+    color: #64748b;
+    margin-bottom: 20px;
+
+}
+/*skills*/
+.skills span{
+    width: 100%;
+    height: 100%;
+    background-color:#dbeafe;
+    border: radius 8px;
+    color: #1d4ed8;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 12px;
+    padding: 8px 10px;
+    border-radius: 4px;
+    transition: 0.2sprofile;
+    flex-wrap: wrap;
+   
+}
+.skills span:hover{
+    transform:translateY(-5px);
+    background-color: red;
+    cursor: pointer;
+}
+
+/*my work*/
+.contact-btn{
+    display: inline-block;
+    text-decoration: none;
+    background-color: #1d4ed8;
+    color: white;
+    padding: 8px 10px;
+    width: 100%;
+    border-radius: 5px;
+
+    margin-top: 20px;
+    box-shadow:2px 3px 5px #000000;
+    transition: 0.3s;
+}
+.contact-btn:hover{
+    transform: translateY(-5px);
+    background-color: red;
+}
