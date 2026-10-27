@@ -75,9 +75,13 @@ button{
     border: none;
     cursor: pointer;
     font-weight: bold;
+   
 }
 button:hover{
     background: red;
+    transform: translateY(-2px);
+    box-shadow: translateY(-2px);
+    
 }
 input:hover{
     background: lightcyan;

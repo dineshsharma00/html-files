@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0px;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+
+}
+/*body design*/
+body{
+    min-height: 100vh;
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 5px;
+
+    background-color: rgb(78, 78, 78);
+
+}
+.logo1 h1{
+    font-weight: bold;
+    border-radius: 50px;
+    padding: 10px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+   
+    
+   
+
+
+}
+.navbar ul{
+    display: flex;
+    list-style:none;
+    align-items: center;
+    gap: 15px;
+    
+    margin: 0;
+    padding: 0;
+
+}
+.navbar ul a{
+    color: white;
+    font-weight: bold;
+    transition: 0.1s;
+    
+}
+
+.navbar ul a:hover{
+    background-color: aqua;
+    color: blue;
+    border-radius: 50px;
+    padding: 8px;
+   flex-wrap: wrap; white;
+   
+
+}
+.login-btn{
+    font-weight: bold;
+    color: white;
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.login-btn:hover{
+    border-color: black;
+    color: black;
+    background-color: aqua;
+    padding: 10px;
+
+}

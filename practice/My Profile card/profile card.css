@@ -19,7 +19,7 @@ body{
 .profile-card{
     width: 320px;
     height: 400px;
-    padding: 30px 20px;
+    padding: 30px 20px ;
     background-color: white;
     border-radius: 20px;
     text-align: center;
@@ -80,9 +80,12 @@ h3{
     font-size: 12px;
     padding: 8px 10px;
     border-radius: 4px;
-    transition: 0.2sprofile;
-    flex-wrap: wrap;
+    transition: 0.2s profile;
+    flex-wrap: nowrap;
    
+}
+.skills{
+    flex-wrap: nowrap;
 }
 .skills span:hover{
     transform:translateY(-5px);
