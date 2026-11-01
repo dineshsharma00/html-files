@@ -1,0 +1,142 @@
+*{
+    background-color: rgb(197, 195, 195);
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #eaf0f7;
+    color: #172b52;
+}
+.container{
+    max-width: 1000px;
+    margin: auto;
+
+}
+/*white card design*/
+.card{
+    background-color: #ffffff;
+    padding:35px;
+    margin-top: 30px;
+    
+    
+
+}
+/*headings*/
+h1{
+    font-size: 42px;
+    margin: 0 0 25px;
+    color: black;
+}
+/*events talbe*/
+table{
+    width: 100%;
+    border-collapse:collapse;
+    font-size: 24px;
+}
+th{
+    background-color:rgb(241, 48, 13) ;
+    color: white;
+    text-align: left;
+    padding: 15px 10px;
+
+}
+td{
+    padding: 15px 10px;
+    border-bottom: 1px solid #d4d9e2;
+    background-color: white;
+}
+tbody tr:last-child td{
+    border-bottom: none;
+}
+    #codingclub{
+    text-align: center;
+    font-size: 70px;
+    background-color: rgb(241, 48, 13);
+    border-radius: 10px;
+    color: aliceblue;
+    font-weight: bold;
+    padding: 30px;
+}
+.learn{
+    font-weight: normal;
+    font-size:20px;
+    margin: auto;
+     background-color: rgb(241, 48, 13);
+}
+{
+    font-size: 30px;
+}
+
+
+
+/*registration form*/
+
+.register{
+    padding: 35px;
+
+}
+
+.register h1{
+    color:black;
+
+}
+
+form label{
+    display: block;
+    margin:15px 0 8px;
+    font-size:18px;
+    background-color: white;
+
+}
+
+input[type="text"],
+input[type="email"],{
+    width::100%;
+    padding:13px;
+    border:1px solid #bfc9d8;
+    border-radius:5px;
+    font-size:16px;
+
+}
+.form-label{
+    margin-top:20px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    background-color: white;
+}
+form{
+    background-color: white;
+}
+.options{
+    display: flex;
+    flex-wrap:wrap;
+    gap:20px;
+}
+.options label{
+    display:flex;
+    align-items: center;
+    gap:7px;
+    margin:8px 0;
+
+}
+.options input{
+    accent-color:#1746c7;
+}
+
+/*Register button*/
+button{
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(241, 48, 13);
+    color: white;
+    border:none;
+    border-radius: 6px;
+    margin-top: 25px;
+    font-size: 20px;
+    
+    cursor: pointer;
+
+}
+

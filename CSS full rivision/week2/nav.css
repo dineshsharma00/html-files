@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+.nav-links{
+    display: flex;
+    gap: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: #111;
+    justify-content: space-between;
+    border: 1px solid #292929;
+    border-radius: 18px;
+    transform-style: preserve-3d;
+    list-style: none;
+
+}
+.nav-links a{
+    background-color:rgb(34, 31, 31);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 25px;
+
+   
+
+    
+
+}

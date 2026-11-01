@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Miniver&family=Poppins:ital,wght@0,100;0,400;0,500;0,600;1,400&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppins","sans-serif";
+}
+header{
+    background-color: rgb(21, 19, 19);
+   
+    
+
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+}
+
+.logo-text{
+    font-weight: bold;
+    color: white;
+    font-size: 40px;
+    
+    
+}
+
+
+.logo-text>span{
+    color: red;
+}
+
+.nav-menu{
+    align-items: center;
+    display: flex;
+    
+    gap: 30px;
+}
+.nav-items{
+    
+    list-style: none;
+}
+.nav-links{
+    text-decoration: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    color: white;
+}
+.nav-links:hover{
+    text-decoration: underline;
+    color: red;
+    font-weight: bold;
+    transform: translateY(-5px);
+    font-size: 18px;
+    transition: 0.1s;
+}
+.button{
+    size: 20px;
+    display: flex;
+    font-size: 17px;
+    text-align: center;
+    
+    
+    width: 120px;
+    height: 42px;
+    margin: 8px;
+    color: white;
+    background-color: red;
+    
+    border-radius: 30px;
+    
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+}
+.button:hover{
+    background-color: white;
+    color: red;
+    border: 3px solid red;
+    transform: translateX(30px);
+    transition: 0.2s;
+    
+    cursor: pointer;
+}
+    
+/**Hero section**/
+
+.background-image{
+    background-image:url("gymbackground.jpg");
+
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:center ;
+    text-align: center;
+   
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.heading{
+    color: white;
+    font-size: 50px;
+    text-shadow: 2px 10px 10px black;
+}
+.subheading{
+    color: red;
+    font-size: 50px;
+    weight: bolder;
+    margin-top: -40px;
+    text-shadow: 0 10px 8px black;
+}
+.paragraph{
+    color: red;
+    font-weight:bolder;
+    background-color: white;
+    width: 350px;
+    border-radius: 20px;
+    /* text-shadow: 0 10px 10px black; */
+
+}
+.hero-buttons{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    align-items: center;
+    margin-top: 40px;
+}
+
+/**comman button stylish**/
+
+.btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    color: white;
+    padding: 5px 8px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    transition: 0.2s ease;
+        background-color: red;
+    color: white;
+    border: 2px solid white;
+}
+.btn:hover{
+    transform: translateX(2px);
+    border: 3px solid red;
+    background-color: white;
+    color: red;
+}
+/* .btn-section{
+     transform: translateX(8px);
+    border: 3px solid red;
+    background-color: white;
+    color: red;
+    
+}
+.btn-section:hover{ */
+
+
+

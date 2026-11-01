@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Club</title>
+    <link rel="stylesheet" href="coding.css">
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <!--Navigations links-->
+  <nav>
+  <a href="#events">Events</a> |
+  <a href="#register">Register</a>
+  </nav>
+
+  <!--main heading-->
+  <h1>coding Club</h1>
+
+  <!--Events Section-->
+  <h2 id="events">Upcoming Events</h2>
+
+  <table border="1">
+    <caption>Club Events</caption>
+
+    <tr>
+        <th>Event</th>
+        <th>Date</th>
+        <th>Venue</th>
+    </tr>
+    <tr>
+        <td>HTML Workshop</td>
+        <td>12 Nov</td>
+        <td>Lab 1</td>
+    </tr>
+    <tr>
+        <td>Hackathon</td>
+        <td>20 Nov</td>
+        <td>Seminar Hall</td>
+    </tr>
+    <tr>
+        <td colspan="3">Total Events:2</td>
+    </tr>
+  </table>
+
+  <!--Registration form-->
+
+  <h2 id="Register">Register</h2>
+
+  <form>
+    <label for="name">Name:</label>
+    <input type="text" id="name"
+    placeholder="your Name">
+    <br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email"
+    placeholder="Enter Email">
+    <br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="Password"
+    placeholder="Password">
+    <br><br>
+
+    <label for="dob">Date of birth:</label>
+    <input type="date" id="dob">
+
+    <br><br>
+
+    <label for="phone">Phone:</label>
+    <input type="tel" id="phone" placeholder="phone number">
+
+    <br><br>
+    Gender:
+    <input type="radio" name="geneder" id="male">
+    <label for="male">Male</label>
+
+    <input type="radio" name="gender" id="female">
+    <label for="female">Female</label>
+
+    <input type="radio" name="gender" id="other">
+    <label for="other">Other</label>
+    <br><br>
+
+    Interests:
+    <input type="checkbox" name="Interests" id="Web">
+    <label for="Web">Web</label>
+
+    <input type="checkbox" name="Interests" id="DSA">
+    <label for="DSA">DSA</label>
+
+    <br><br>
+    
+    <label for="branch">Branch:</label>
+    <select id="branch">
+        <option>BCA</option>
+        <option>B.tech</option>
+        <option>BSC</option>
+        <option>MCA</option>
+
+    </select>
+    <br><br>
+
+    <label for="reason">Why do you want to join?</label>
+    <br>
+    <textarea id="reason" rows="4" cols="40"></textarea>
+    <br><br>
+    <button type="submit">Resister</button>
+
+
+  </form>
+
+
+    
+</body>
+</html>

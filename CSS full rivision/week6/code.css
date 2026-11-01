@@ -1,0 +1,135 @@
+/*Basic Reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: arial,sans-serif;
+    background-color: #f4f7fc;
+    color: #222;
+}
+
+/*Navbar*/
+.navbar{
+    background-color: rgb(3, 5, 61);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 15px 5%;
+    
+}
+.logo{
+    font-size: 25px;
+    color: white;
+
+}
+.nav-links{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+
+}
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    
+}
+.nav-links a:hover{
+    color: #ffb300;
+}
+.signup{
+    background-color: #ffb300;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 7px;
+    font-weight: bold;
+}
+/*hero section*/
+.hero{
+    min-height: 300px;
+    background: linear-gradient(120deg,rgb(31, 73, 240));
+    color: white;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    padding: 60px,20px;
+
+}
+.hero h1{
+    font-size: 44px;
+    margin-bottom: 20px;
+}
+.button{
+    display: inline-block;
+    background-color:#ffb300 ;
+    color: black;
+    border-color: black;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    padding: 8px;
+    margin-top: 10px;
+
+}
+.button:hover{
+    background-color: white;
+    
+
+}
+/*course*/
+.course{
+    display: grid;
+}
+p{
+    font-weight: bold;
+    color: white;
+}
+.courses{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: space-evenly;
+    padding: 40px 6%;
+
+}
+.card{
+    background-color:#e8f2ff;
+    padding: 20px 20px;
+    margin: 5px ;
+    border-radius:12px;
+    text-align: center;
+    transition:0.3s;
+
+}
+.card h3{
+    color: #06101d;
+    font-size:22px;
+    margin-bottom:10px;
+}
+.card p{
+    color: #19212c;
+    font-size: 16px;
+    
+}
+/*Moble Responsive*/
+@media(max-width:768px){
+.navbar{
+    flex-wrap:wrap;
+    gap:20px;
+    padding:20px;
+}
+
+.nav-links{
+    gap: 15px;
+}
+}

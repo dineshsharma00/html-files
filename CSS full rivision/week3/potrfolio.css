@@ -1,0 +1,28 @@
+body{
+    font-size: 20px;
+    background-color: lightgoldenrodyellow;
+}
+h1{
+    background-color: bisque;
+    margin: 0px;
+    padding: 10px;
+    height: 40px;
+    
+}
+h2{
+    background-color: bisque;
+}
+#course{
+    color: aliceblue;
+    background-color: black;
+
+}
+ul{
+    color: black;
+    background-color: aliceblue;
+    font-style: 2px solid black;
+    
+}
+.highlight{
+    background-color:blue;
+}
